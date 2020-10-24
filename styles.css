@@ -1,0 +1,120 @@
+.dropdown-menu {
+  width: 800px;
+  margin-left: -250px;
+}
+.dropdown:hover > .dropdown-menu {
+  display: none;
+
+  display: block;
+  width: cal(100/6);
+  margin-left: -250px;
+}
+
+.bg-dark {
+  background-color: black !important;
+}
+
+.nav-text {
+  font-size: 2.5vw;
+}
+
+.navbar-brand img {
+  height: 38px;
+  margin-left: 40px;
+}
+
+img {
+  vertical-align: middle;
+  border-style: none;
+}
+
+.drop-text {
+  color: rgb(252, 246, 246);
+  font-weight: 500;
+
+  font-size: 20px;
+  margin-left: 15px;
+}
+
+.btn-dark {
+  background-color: black;
+
+  margin-bottom: 8px;
+}
+
+.drop-text:hover {
+  color: green;
+}
+
+.searchicon {
+  font-size: 20px !important;
+  margin-right: 15px;
+}
+
+.fa-search {
+  color: white;
+}
+
+.btn-text {
+  font-size: 20px;
+  font-weight: 500;
+}
+.btn-text1 {
+  font-size: 15px;
+  font-weight: 500;
+}
+
+.drop-down-text-bg {
+  background-color: black;
+  color: white;
+
+  font-size: 20px;
+}
+
+.dropdown-item {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.text-size-dd {
+  font-size: 13px;
+  line-height: 1.1;
+  color: rgb(43, 41, 41);
+}
+
+.text-size-dd:hover {
+  color: rgb(14, 151, 14);
+}
+
+.margin {
+  margin-top: 100px;
+}
+
+@media screen and (max-width: 380px) {
+  .navbar-brand img {
+    width: 232px;
+    height: 34px;
+  }
+}
+
+@media screen and (max-width: 580px) {
+  .navbar-brand img {
+    margin: 0;
+  }
+}
+@media (max-width: 1166px) {
+  .navbar-brand img {
+    margin: 0 0 0 0;
+  }
+}
+
+@media screen and (max-width: 580px) {
+  .dropdown:hover > .dropdown-menu {
+    width: 100%;
+    margin-left: 0px;
+  }
+  .dropdown-menu {
+    width: 100%;
+    margin-left: 0px;
+  }
+}
