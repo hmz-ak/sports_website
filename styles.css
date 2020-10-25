@@ -81,10 +81,64 @@ img {
   font-weight: 600;
 }
 
+.jumbotron {
+  border-radius: 0;
+  padding: 0 2rem;
+  padding-bottom: 20px;
+  background-color: #f5f5f5;
+}
+
+.drk {
+  background-color: #161616;
+}
+
+.text-footer {
+  color: #14c550;
+  font-size: 19px;
+  font-weight: bold;
+}
+
+.text-fot1 {
+  color: white;
+
+  font-weight: bold;
+}
+.footerStyle {
+  list-style: none;
+  color: white;
+  line-height: 2.5;
+  font-size: 15px;
+  font-weight: bold;
+  margin-left: -30px;
+}
+.fa-caret-right {
+  color: grey;
+}
+.footerStyle1:hover {
+  color: grey;
+  cursor: pointer;
+}
+.text-fot1:hover {
+  color: grey;
+  cursor: pointer;
+}
+
+.vertical-center {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
 .text4 {
   font-size: 15px;
   font-weight: 600;
   text-decoration: none !important;
+}
+
+.textS {
+  font-size: 33px;
+  font-weight: 470;
 }
 
 .drop-down-text-bg {

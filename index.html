@@ -738,10 +738,21 @@
         <a href=""><i class="fas fa-search searchicon"></i></a>
 
         <a style="text-decoration: none" href="#"
-          ><span class="drop-text mr-4">Login</span></a
+          ><span
+            data-toggle="modal"
+            data-target="#loginModal"
+            class="drop-text mr-4"
+            >Login</span
+          ></a
         >
         <a href="#" class="btn btn-success btn-md mr-5">
-          <span class="btn-text1"> Create an account </span>
+          <span
+            data-toggle="modal"
+            data-target="#joinUsModal"
+            class="btn-text1"
+          >
+            Create an account
+          </span>
         </a>
       </div>
     </nav>
@@ -1558,8 +1569,330 @@
           </div>
         </div>
       </div>
+
+      <div class="row mt-4">
+        <div class="col-12 col-md-6">
+          <p class="textS">Latest PSO Posts</p>
+          <a class="text4 ml-4" href="#">VIEW ALL LATEST</a>
+          <div class="card mt-4" style="width: 35rem">
+            <img
+              class="card-img-top p-3"
+              src="./images/a1.jpg"
+              alt="Card image cap"
+            />
+            <div class="card-body">
+              <h6><span class="badge badge-dark">FEATURED</span></h6>
+
+              <h5 class="card-title">
+                Top 5 Facts To Know From NFL Week 6 and also from week 7
+              </h5>
+              <summary style="color: grey">
+                By
+                <span style="color: black; font-weight: bold">Kevin Lestz</span>
+                on Oct 21, 2020
+              </summary>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-12 col-md-6">
+          <p class="textS">My Teams Posts</p>
+          <a class="text4 ml-4" href="#">VIEW MY TEAM CENTER</a>
+          <div class="card mt-4" style="width: 35rem">
+            <img
+              class="card-img-top p-3"
+              src="./images/img1.jpg"
+              alt="Card image cap"
+            />
+            <div class="card-body">
+              <h6><span class="badge badge-dark">FEATURED</span></h6>
+
+              <h5 class="card-title">
+                Top 5 Facts To Know From NFL Week 6 and also from week 7
+              </h5>
+              <summary style="color: grey">
+                By
+                <span style="color: black; font-weight: bold">Kevin Lestz</span>
+                on Oct 21, 2020
+              </summary>
+            </div>
+          </div>
+        </div>
+        <div style="margin: 0px auto">
+          <button style="width: 400px" class="btn btn-dark btn-lg mt-4">
+            SHOW MORE
+          </button>
+        </div>
+      </div>
     </div>
 
+    <div class="jumbotron mt-4 m-0 drk">
+      <div class="row">
+        <div class="col-12 col-md-4 mt-5 ml-4">
+          <p class="text-footer">Recent Posts</p>
+          <div class="row mt-5">
+            <div class="col-3">
+              <img width="90px" height="80px" src="./images/f1.jpg" alt="" />
+            </div>
+            <div class="col-9">
+              <div class="row">
+                <div class="col-12">
+                  <h6><span class="badge badge-dark">FEATURED</span></h6>
+                </div>
+                <div class="col-12">
+                  <p class="text-fot1">Today in Sports: October 24, 2020</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="row mt-4">
+            <div class="col-3">
+              <img width="90px" height="80px" src="./images/f2.jpg" alt="" />
+            </div>
+            <div class="col-9">
+              <div class="row">
+                <div class="col-12">
+                  <h6><span class="badge badge-dark">MLB</span></h6>
+                </div>
+                <div class="col-12">
+                  <p class="text-fot1">
+                    ESPN: World Series Intel for Game 3, Morton vs. Buehler
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="row mt-4">
+            <div class="col-3">
+              <img width="90px" height="80px" src="./images/f3.jpg" alt="" />
+            </div>
+            <div class="col-9">
+              <div class="row">
+                <div class="col-12">
+                  <h6><span class="badge badge-dark">NFL</span></h6>
+                </div>
+                <div class="col-12">
+                  <p class="text-fot1">
+                    NFL.com: Lessons Learned From Eagles-Giants on TNF
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-md-3 mt-5 ml-4">
+          <p class="text-footer">Quick Links</p>
+          <ul class="footerStyle mt-5">
+            <li class="footerStyle1">
+              <i class="fas fa-caret-right"></i> About Us
+            </li>
+            <li class="footerStyle1">
+              <i class="fas fa-caret-right"></i> Terms & Conditions
+            </li>
+            <li class="footerStyle1">
+              <i class="fas fa-caret-right"></i> Privacy Policy
+            </li>
+            <li class="footerStyle1">
+              <i class="fas fa-caret-right"></i> Careers
+            </li>
+            <li class="footerStyle1">
+              <i class="fas fa-caret-right"></i> Contact Us
+            </li>
+          </ul>
+        </div>
+        <div class="col-12 col-md-2 mt-5 ml-4">
+          <p class="text-footer">Latest in Sports</p>
+          <ul class="footerStyle mt-5">
+            <li class="footerStyle1">
+              <i class="fas fa-caret-right"></i> Today in Sports
+            </li>
+            <li class="footerStyle1">
+              <i class="fas fa-caret-right"></i> Best in Sports
+            </li>
+            <li class="footerStyle1">
+              <i class="fas fa-caret-right"></i> Headlines
+            </li>
+            <li class="footerStyle1">
+              <i class="fas fa-caret-right"></i> Highlights
+            </li>
+            <li class="footerStyle1">
+              <i class="fas fa-caret-right"></i> Facts
+            </li>
+            <li class="footerStyle1"><i class="fas fa-caret-right"></i> HOT</li>
+            <li class="footerStyle1"><i class="fas fa-caret-right"></i> NFL</li>
+            <li class="footerStyle1"><i class="fas fa-caret-right"></i> NBA</li>
+            <li class="footerStyle1"><i class="fas fa-caret-right"></i> MLB</li>
+          </ul>
+        </div>
+        <div class="col-12 col-md-2 mt-5 ml-4">
+          <p class="text-footer">Social</p>
+          <ul class="footerStyle mt-5">
+            <li class="footerStyle1">
+              <a
+                target="_blank"
+                href="https://www.instagram.com/hamza_akram07/?hl=en"
+                ><i style="color: white" class="fab fa-instagram fa-2x mr-2"></i
+              ></a>
+            </li>
+            <li class="footerStyle1">
+              <a target="_blank" href="#"
+                ><i style="color: white" class="fab fa-twitter fa-2x mr-2"></i
+              ></a>
+            </li>
+            <li class="footerStyle1">
+              <a target="_blank" href="#"
+                ><i style="color: white" class="fab fa-facebook fa-2x mr-2"></i
+              ></a>
+            </li>
+            <li class="footerStyle1">
+              <a target="_blank" href="#"
+                ><i style="color: white" class="fab fa-youtube fa-2x mr-2"></i
+              ></a>
+            </li>
+            <li class="footerStyle1">
+              <a
+                target="_blank"
+                href="https://linkedin.com/in/hamza-akram-793765174"
+                ><i style="color: white" class="fab fa-linkedin fa-2x mr-2"></i
+              ></a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <!--Login Modal-->
+    <div class="modal fade" id="loginModal" role="dialog">
+      <div class="modal-dialog model-lg" role="content">
+        <!--Model Content-->
+        <div class="modal-content">
+          <div class="modal-header">
+            <h4 class="modal-title">Login</h4>
+            <button type="button" class="close" data-dismiss="modal">
+              &times;
+            </button>
+          </div>
+          <div class="modal-body">
+            <form>
+              <div class="form-row">
+                <div class="form-group col-sm-4">
+                  <label class="sr-only" for="exampleInputEmail3"
+                    >Email address</label
+                  >
+                  <input
+                    type="email"
+                    class="form-control form-control-sm mr-1"
+                    id="exampleInputEmail3"
+                    placeholder="Enter email"
+                  />
+                </div>
+                <div class="form-group col-sm-4">
+                  <label class="sr-only" for="exampleInputPassword3"
+                    >Password</label
+                  >
+                  <input
+                    type="password"
+                    class="form-control form-control-sm mr-1"
+                    id="exampleInputPassword3"
+                    placeholder="Password"
+                  />
+                </div>
+                <div class="col-sm-auto">
+                  <div class="form-check">
+                    <input class="form-check-input" type="checkbox" />
+                    <label class="form-check-label"> Remember me </label>
+                  </div>
+                </div>
+              </div>
+              <div class="form-row">
+                <button
+                  type="button"
+                  class="btn btn-secondary btn-sm ml-auto"
+                  data-dismiss="modal"
+                >
+                  Cancel
+                </button>
+                <button type="submit" class="btn btn-primary btn-sm ml-1">
+                  Sign in
+                </button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!--Join Us Modal-->
+    <div class="modal fade" id="joinUsModal" role="dialog">
+      <div class="modal-dialog model-lg" role="content">
+        <!--Model Content-->
+        <div class="modal-content">
+          <div class="modal-header">
+            <h4 class="modal-title">Join Us</h4>
+            <button type="button" class="close" data-dismiss="modal">
+              &times;
+            </button>
+          </div>
+          <div class="modal-body">
+            <form>
+              <div class="form-row">
+                <div class="form-group col-sm-4">
+                  <label class="sr-only" for="exampleInputEmail3"
+                    >Email address</label
+                  >
+                  <input
+                    type="email"
+                    class="form-control form-control-sm mr-1"
+                    id="exampleInputEmail3"
+                    placeholder="Enter email"
+                  />
+                </div>
+                <div class="form-group col-sm-4">
+                  <label class="sr-only" for="exampleInputPassword3"
+                    >Password</label
+                  >
+                  <input
+                    type="password"
+                    class="form-control form-control-sm mr-1"
+                    id="exampleInputPassword3"
+                    placeholder="Password"
+                  />
+                </div>
+                <div class="form-group col-sm-4">
+                  <label class="sr-only" for="exampleInputPassword4"
+                    >Retype Password</label
+                  >
+                  <input
+                    type="password"
+                    class="form-control form-control-sm mr-1"
+                    id="exampleInputPassword4"
+                    placeholder="Retype Password"
+                  />
+                </div>
+                <div class="col-sm-auto">
+                  <div class="form-check">
+                    <input class="form-check-input" type="checkbox" />
+                    <label class="form-check-label"> Remember me </label>
+                  </div>
+                </div>
+              </div>
+              <div class="form-row">
+                <button
+                  type="button"
+                  class="btn btn-secondary btn-sm ml-auto"
+                  data-dismiss="modal"
+                >
+                  Cancel
+                </button>
+                <button type="submit" class="btn btn-primary btn-sm ml-1">
+                  Sign Up
+                </button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
     <script
       src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
       integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
