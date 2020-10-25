@@ -100,13 +100,13 @@ img {
 
 .txt {
   position: absolute;
-  top: 40%;
+  top: 20%;
   left: 10%;
   transform: translate(-50%, -50%);
 }
 .txt2 {
   position: absolute;
-  top: 50%;
+  top: 30%;
   left: 37%;
   color: yellow;
   font-weight: 700;
@@ -116,7 +116,7 @@ img {
 
 .txt3 {
   position: absolute;
-  top: 64%;
+  top: 42%;
   left: 37%;
   color: white;
   font-weight: 700;
@@ -160,13 +160,13 @@ img {
 @media screen and (max-width: 580px) {
   .txt {
     position: absolute;
-    top: 40%;
-    left: 15%;
+    top: 6%;
+    left: 20%;
     transform: translate(-50%, -50%);
   }
   .txt2 {
     position: absolute;
-    top: 60%;
+    top: 11%;
     left: 37%;
     color: yellow;
     font-weight: 700;
@@ -176,7 +176,7 @@ img {
 
   .txt3 {
     position: absolute;
-    top: 83%;
+    top: 16%;
     left: 37%;
     color: white;
     font-weight: 700;
